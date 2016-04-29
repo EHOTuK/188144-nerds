@@ -7,11 +7,9 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <p>
-          <a href="#">
+          <a href="#" class="logo">
             <img src="#" alt="Nёrd's">
           </a>
-        </p>
         <nav class="main_navigation">
           <ul>
             <li>
@@ -43,48 +41,90 @@
           <h2>Стоимость</h2>
           <!-- ползунок?... как связать цену с меняющимися значениями -->
           <h2>Сетка:</h2>
-          <ul>
-            <li><input type="mesh_name" id="mesh_name_1"><label for="mesh_name_1">Адаптивная</label></li>
-            <li><input type="mesh_name" id="mesh_name_2"><label for="mesh_name_2">Фиксированная</label></li>
-            <li><input type="mesh_name" id="mesh_name_3"><label for="mesh_name_3">Резиновая</label></li>
-          </ul>
+          <form class="mesh">
+            <fieldset>
+              <ul>
+                <li><input type="radio" id="mesh_name_1"><label for="mesh_name_1">Адаптивная</label></li>
+                <li><input type="radio" id="mesh_name_2"><label for="mesh_name_2">Фиксированная</label></li>
+                <li><input type="radio" id="mesh_name_3"><label for="mesh_name_3">Резиновая</label></li>
+              </ul>
+            </fieldset>
+          </form>
           <h2>Особенности:</h2>
-          <ul>
-            <li><input type="feature_name" id="feature_name_1"><label for="feature_name_1">Слайдер</label></li>
-            <li><input type="feature_name" id="feature_name_2"><label for="feature_name_2">ФБлок преимуществ</label></li>
-            <li><input type="feature_name" id="feature_name_3"><label for="feature_name_3">Новости</label></li>
-            <li><input type="feature_name" id="feature_name_2"><label for="feature_name_2">Галерея</label></li>
-            <li><input type="feature_name" id="feature_name_3"><label for="feature_name_3">Корзина</label></li>
-          </ul>
-          <a href="#">Показать</a>
+          <form class="feature">
+            <fieldset>
+              <ul>
+                <li><input type="radio" id="feature_name_1"><label for="feature_name_1">Слайдер</label></li>
+                <li><input type="radio" id="feature_name_2"><label for="feature_name_2">Блок преимуществ</label></li>
+                <li><input type="radio" id="feature_name_3"><label for="feature_name_3">Новости</label></li>
+                <li><input type="radio" id="feature_name_2"><label for="feature_name_2">Галерея</label></li>
+                <li><input type="radio" id="feature_name_3"><label for="feature_name_3">Корзина</label></li>
+              </ul>
+            </fieldset>
+          </form>
+          <p>
+            <input type="submit" value="Отправить">
+          </p>
         </div>
         <div class="products">
           <div class="sort_menu">
             <h3>Сортировать</h3>
             <ul>
-              <li>По цене</li>
-              <li>По типу</li>
-              <li>По функционалу</li>
+              <li><a href="#">По цене</a></li>
+              <li><a href="#">По типу</a></li>
+              <li><a href="#">По функционалу</a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
             </ul>
           </div>
           <!-- по идее по нажатию на товар происхдит переход к описанию на новую страницу?.. -->
           <div class="product">
-            <a href="#"><img src="#"></a>
+            <div class="product-description">
+              <div class="product-descripiton-title">Aviator</div>
+                <p>Одностраничный макет<br>
+                с авторским дизайном</p>
+                <a href="#">8000 Р.</a>
+            </div>
           </div>
           <div class="product">
-            <a href="#"><img src="#"></a>
+            <div class="product-description">
+              <div class="product-descripiton-title">Sunset</div>
+                <p>Интернет магазин<br>
+                с личным кабинетом</p>
+                <a href="#">10000 Р.</a>
+            </div>
           </div>
           <div class="product">
-            <a href="#"><img src="#"></a>
+            <div class="product-description">
+              <div class="product-descripiton-title">Forte</div>
+                <p>Отличный макет<br>
+                для личного блога</p>
+                <a href="#">5000 Р.</a>
+            </div>
           </div>
           <div class="product">
-            <a href="#"><img src="#"></a>
+            <div class="product-description">
+              <div class="product-descripiton-title">Modern Organic THAI</div>
+                <p>Сайт для ресторана<br>
+                быстрого питания</p>
+                <a href="#">12000 Р.</a>
+            </div>
           </div>
           <div class="product">
-            <a href="#"><img src="#"></a>
+            <div class="product-description">
+              <div class="product-descripiton-title">Avenue</div>
+                <p>Макет для блога<br>
+                о путешествиях</p>
+                <a href="#">8000 Р.</a>
+            </div>
           </div>
           <div class="product">
-            <a href="#"><img src="#"></a>
+            <div class="product-description">
+              <div class="product-descripiton-title">Dovetail</div>
+                <p>Интернет-магазин<br>
+                с галереей товаров</p>
+                <a href="#">14000 Р.</a>
+            </div>
           </div>
         </div>
         <div class="the_store_page">
