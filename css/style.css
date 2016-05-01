@@ -20,12 +20,12 @@ h2 {
 }
 header, .slider, .welcome {
 	background-color: #eeeeee;
-	min-width: 1200px;
-  	min-height: 436;
+  	min-height: 56;
 }
 .main_navigation{
     text-transform: uppercase;
     font-weight: 600;
+    display: inline;
 }
 span{
     text-transform: uppercase;
@@ -82,3 +82,36 @@ header li {
     background: #eeeeee;
 }
 
+/*Сетка*/
+.logo {
+    height: 56 px;
+    width: 139 px;
+    float: left;
+    margin-right: 183 px;
+    margin-left: 161 px;
+}
+.main_navigation {
+    height: 56 px;
+    width: 557 px;
+    float: right;
+    margin-right: 160 px;
+}
+.slider {
+    clear: both;
+    height: 231 px;
+    width: 881 px;
+    margin-left: 160 px;
+    margin-right: 160 px;
+}
+.slider{
+    float: left;
+    margin-left: 160 px;
+}
+.img_slider {
+    float: right;
+    margin-right: 160 px;
+    margin-left: 182 px;
+}
+.specializations {
+    clear: both;
+}
