@@ -1,0 +1,84 @@
+body {
+	padding:0;
+	margin:0;
+	width: 1200px;
+  	height: 2256px;
+}
+h1 {
+    color: black;
+    font-size: 33x;
+    font-weight: bold;
+    font-family: Roboto;
+}
+h2 {
+    color: black;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header, .slider, .welcome {
+	background-color: #eeeeee;
+	min-width: 1200px;
+  	min-height: 436;
+}
+.main_navigation{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+span{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+header li {
+    list-style-type: none;
+    text-align: center;
+}
+.social_btn_vk {
+    background: #eeeeee;
+    border-radius: 62px;
+}
+.social_btn_fb {
+    background: #eeeeee;
+    border-radius: 50px;
+}
+
+.social_btn_inst {
+    background: #eeeeee;
+    border-radius: 50px;
+}
+.sponsors {
+    opacity: 0.2;
+}
+.AGlukhanko {
+    margin-left: 180 px;
+}
+.Html_Academy {
+    margin-left: 121 px;
+    margin-right: 121 px; 
+}
+.Barbershop_Borodinski {
+    margin-right: 180 px;
+}
+.sort_menu {
+    opacity: 0.2;
+}
+.ascending{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid green;
+}
+.descending{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #eeeeee;
+}
+.the_store_page {
+    background: #eeeeee;
+}
+
