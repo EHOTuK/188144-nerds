@@ -2,7 +2,6 @@ body {
 	padding:0;
 	margin:0;
 	width: 1200px;
-  	height: 2256px;
 }
 h1 {
     color: black;
@@ -24,6 +23,7 @@ header, .slider, .welcome {
 }
 .main_navigation{
     text-transform: uppercase;
+    font-size: 11px;
     font-weight: 600;
     display: inline;
 }
@@ -52,14 +52,14 @@ header li {
     opacity: 0.2;
 }
 .AGlukhanko {
-    margin-left: 180 px;
+    margin-left: 12px;
 }
 .Html_Academy {
-    margin-left: 121 px;
-    margin-right: 121 px; 
+    margin-left: 120px;
+    margin-right: 123px; 
 }
 .Barbershop_Borodinski {
-    margin-right: 180 px;
+    margin-right: 19px;
 }
 .sort_menu {
     opacity: 0.2;
@@ -84,34 +84,76 @@ header li {
 
 /*Сетка*/
 .logo {
-    height: 56 px;
-    width: 139 px;
+    height: 56px;
+    width: 139px;
     float: left;
-    margin-right: 183 px;
-    margin-left: 161 px;
+    margin-right: 183px;
+    margin-left: 161px;
 }
 .main_navigation {
-    height: 56 px;
-    width: 557 px;
+    height: 56px;
+    width: 557px;
     float: right;
-    margin-right: 160 px;
+    margin-right: 160px;
 }
 .slider {
     clear: both;
-    height: 231 px;
-    width: 881 px;
-    margin-left: 160 px;
-    margin-right: 160 px;
-}
-.slider{
+    height: 231px;
+    width: 881px;
+    margin-left: 160px;
+    margin-right: 160px;
     float: left;
-    margin-left: 160 px;
 }
 .img_slider {
     float: right;
-    margin-right: 160 px;
-    margin-left: 182 px;
+    margin-right: 160px;
+    margin-left: 182px;
 }
 .specializations {
+    clear: both;
+}
+.web_sites {
+    float: left;
+    margin-left: 160px;
+    margin-right: 80px;
+    width: 240px;
+    height: 124px;
+}
+.apps {
+    float: left;
+    margin-right: 80px;
+    width: 240px;
+    height: 124px;
+}
+.presentations {
+    float: right;
+    margin-right: 160px
+    width: 240px;
+    height: 124px;
+}
+.info_about_company, .orders {
+    float: right;
+    margin-left: 159px;
+    height: 326px;
+    width: 571px;
+    margin-right: 68px;
+}
+.how_we_work, .year_of_foundation {
+    clear: both;
+    height: 341px;
+}
+.logo_sinse {
+    margin-left: 31px;
+}
+.sponsors {
+    clear: both;
+    height: 166px; 
+    width: 880px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
     clear: both;
 }
