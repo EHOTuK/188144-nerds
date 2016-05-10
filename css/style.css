@@ -26,6 +26,7 @@ header, .slider, .welcome {
     font-size: 11px;
     font-weight: 600;
     display: inline;
+    white-space: nowrap;
 }
 span{
     text-transform: uppercase;
